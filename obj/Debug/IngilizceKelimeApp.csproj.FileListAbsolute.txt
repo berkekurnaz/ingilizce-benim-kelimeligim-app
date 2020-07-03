@@ -15,3 +15,4 @@ C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\Lite
 C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\LiteDB.xml
 C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Screens.FrmAdd.resources
 C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.csprojAssemblyReference.cache
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Screens.FrmQuiz.resources

@@ -43,7 +43,9 @@ namespace IngilizceKelimeApp.Screens
         /* Quiz Sayfasini Acar */
         private void metroPanel3_Click(object sender, EventArgs e)
         {
-
+            FrmQuiz frmQuiz = new FrmQuiz();
+            frmQuiz.Show();
+            this.Hide();
         }
 
         /* Ayarlar Sayfasini Acar */
