@@ -1,0 +1,17 @@
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\IngilizceKelimeApp.exe.config
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\IngilizceKelimeApp.exe
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\IngilizceKelimeApp.pdb
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\MetroFramework.dll
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Properties.Resources.resources
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Screens.FrmMain.resources
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.csproj.GenerateResource.cache
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.csproj.CoreCompileInputs.cache
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.csproj.CopyComplete
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.exe
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.pdb
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Screens.FrmList.resources
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\LiteDB.dll
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\bin\Debug\LiteDB.xml
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.Screens.FrmAdd.resources
+C:\Users\Berke\source\repos\IngilizceKelimeApp\IngilizceKelimeApp\obj\Debug\IngilizceKelimeApp.csprojAssemblyReference.cache
