@@ -51,7 +51,9 @@ namespace IngilizceKelimeApp.Screens
         /* Ayarlar Sayfasini Acar */
         private void metroPanel4_Click(object sender, EventArgs e)
         {
-
+            FrmSettings frmSettings = new FrmSettings();
+            frmSettings.Show();
+            this.Hide();
         }
 
         /* Yeni Ekleme Sayfasini Acar */
