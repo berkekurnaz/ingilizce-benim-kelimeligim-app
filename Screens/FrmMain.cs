@@ -1,4 +1,5 @@
 ﻿
+using IngilizceKelimeApp.Properties;
 using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace IngilizceKelimeApp.Screens
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
+            this.Icon = Resources.icons8_planner_501;
             lblDate.Text = "Tarih : " + DateTime.Now.ToLongDateString();
         }
 

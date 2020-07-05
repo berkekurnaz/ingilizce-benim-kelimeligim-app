@@ -1,5 +1,6 @@
 ﻿using IngilizceKelimeApp.Database;
 using IngilizceKelimeApp.Models;
+using IngilizceKelimeApp.Properties;
 using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,8 @@ namespace IngilizceKelimeApp.Screens
         /* Ekran Yuklendigi Zaman Gerceklesecek Olaylar */
         private void FrmList_Load(object sender, EventArgs e)
         {
+            this.Icon = Resources.icons8_planner_501;
+
             ShowData();
         }
 

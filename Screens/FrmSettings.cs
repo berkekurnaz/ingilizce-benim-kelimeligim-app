@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
+using IngilizceKelimeApp.Properties;
 
 namespace IngilizceKelimeApp.Screens
 {
@@ -28,12 +29,27 @@ namespace IngilizceKelimeApp.Screens
 
         private void FrmSettings_Load(object sender, EventArgs e)
         {
+            this.Icon = Resources.icons8_planner_501;
+
             words = _wordManager.GetAll();
 
             lblCountAll.Text = words.Count.ToString();
             lblCountToday.Text = words.Count(x => x.Date == DateTime.Now.ToShortDateString()).ToString();
 
             metroComboBox1.SelectedIndex = 0;
+
+            ShowDateToCalendar();
+        }
+
+        /* Takvim Uzerinde Kelime Eklenen Gunleri Gosterir */
+        void ShowDateToCalendar()
+        {
+            DateTime[] pointerDays = new DateTime[words.Count];
+            for (int i = 0; i < words.Count; i++)
+            {
+                pointerDays[i] = Convert.ToDateTime(words[i].Date);
+            }
+            monthCalendar1.BoldedDates = pointerDays;
         }
 
         /* Ana menu geri donme */
@@ -50,7 +66,7 @@ namespace IngilizceKelimeApp.Screens
             string wordsList = "İngilizce Kelimeler\n------------------------------------\n";
             foreach (var item in words)
             {
-                wordsList += item.Id.ToString() + ".  " + item.Title + "  :  " + item.Mean + "\n";  
+                wordsList += item.Id.ToString() + ".  " + item.Title + "  :  " + item.Mean + "\n";
             }
 
             try

@@ -137,7 +137,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8-planner-50.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include="Resources\undraw_to_do_list_a49b.png" />
@@ -145,6 +147,9 @@
     <None Include="Resources\undraw_duplicate_xac4.png" />
     <None Include="Resources\undraw_dropdown_menu_vv9j.png" />
     <None Include="Resources\undraw_dashboard_nklg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-planner-50.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

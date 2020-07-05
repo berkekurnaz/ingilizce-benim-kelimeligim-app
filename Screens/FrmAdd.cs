@@ -1,5 +1,6 @@
 ﻿using IngilizceKelimeApp.Database;
 using IngilizceKelimeApp.Models;
+using IngilizceKelimeApp.Properties;
 using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace IngilizceKelimeApp.Screens
 
         private void FrmAdd_Load(object sender, EventArgs e)
         {
+            this.Icon = Resources.icons8_planner_501;
             words = _wordManager.GetAll();
             dateDate.Value = DateTime.Now;
         }
